@@ -1,12 +1,12 @@
-assets//ì‚Á‚½‚à‚Ì
-	Models//ƒLƒƒƒ‰‚Æ‚©‚Ìƒ‚ƒfƒ‹
-		Character//ƒLƒƒƒ‰
-		Map//ƒ}ƒbƒv‚Ì‰æ‘œ‚Æ‚©
-		UI//ƒƒjƒ…[‚Æ‚©
-		Audio//‰¹
-	Scenes//‚½‚Ô‚ñ1ƒ}ƒbƒv’PˆÊ‚Ì‰ò‚ª“ü‚é
-	Scrips//ƒvƒƒOƒ‰ƒ€
-		View//ƒ}ƒbƒv’PˆÊ
-		Public//ƒ}ƒbƒv‹¤’Ê
-docs//ƒƒ‚‚Æ‚©à–¾‘‚Æ‚©
-‘¼//‚³‚í‚ñ‚È‚¢
+assets//ä½œã£ãŸã‚‚ã®
+	Models//ã‚­ãƒ£ãƒ©ã¨ã‹ã®ãƒ¢ãƒ‡ãƒ«
+		Character//ã‚­ãƒ£ãƒ©
+		Map//ãƒžãƒƒãƒ—ã®ç”»åƒã¨ã‹
+		UI//ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã¨ã‹
+		Audio//éŸ³
+	Scenes//ãŸã¶ã‚“1ãƒžãƒƒãƒ—å˜ä½ã®å¡ŠãŒå…¥ã‚‹
+	Script//ãƒ—ãƒ­ã‚°ãƒ©ãƒ 
+		View//ãƒžãƒƒãƒ—å˜ä½
+		Public//ãƒžãƒƒãƒ—å…±é€š
+docs//ãƒ¡ãƒ¢ã¨ã‹èª¬æ˜Žæ›¸ã¨ã‹
+ä»–//ã•ã‚ã‚“ãªã„
