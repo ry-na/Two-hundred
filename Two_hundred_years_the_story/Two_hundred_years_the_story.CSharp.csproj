@@ -65,5 +65,13 @@
   <ItemGroup>
     <Compile Include="Assets\sample.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Models\Audio\kari.txt" />
+    <None Include="Assets\Models\Character\kari.txt" />
+    <None Include="Assets\Models\Map\kari.txt" />
+    <None Include="Assets\Models\UI\kari.txt" />
+    <None Include="Assets\Scripts\Public\kari.txt" />
+    <None Include="Assets\Scripts\View\kari.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
