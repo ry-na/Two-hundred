@@ -12,7 +12,7 @@
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
     <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
@@ -63,6 +63,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\DataTable.cs" />
+    <Compile Include="Assets\Script\SqliteDatabase.cs" />
     <Compile Include="Assets\sample.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -70,8 +72,8 @@
     <None Include="Assets\Models\Character\kari.txt" />
     <None Include="Assets\Models\Map\kari.txt" />
     <None Include="Assets\Models\UI\kari.txt" />
-    <None Include="Assets\Scripts\Public\kari.txt" />
-    <None Include="Assets\Scripts\View\kari.txt" />
+    <None Include="Assets\Script\Public\kari.txt" />
+    <None Include="Assets\Script\View\kari.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
