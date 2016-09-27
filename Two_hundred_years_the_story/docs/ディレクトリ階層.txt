@@ -1,4 +1,4 @@
-assets//作ったもの
+﻿assets//作ったもの
 	Models//キャラとかのモデル
 		Character//キャラ
 		Map//マップの画像とか
