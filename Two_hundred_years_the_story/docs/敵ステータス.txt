@@ -1,0 +1,42 @@
+チュートリアルのキャラA　HP　１０
+                         MP　０
+　　　　　　　　　　　　　ATK　５
+　　　　　　　　　　　　　DF　０
+　　　　　　　　　　　　　S　５
+
+植物A　 HP
+　　　　MP
+　　　　ATK　
+　　　　DF
+　　　　S
+
+植物B　 HP
+　　　　MP
+　　　　ATK
+　　　　DF
+　　　　S
+
+植物C　 HP
+　　　　MP
+　　　　ATK
+　　　　DF
+　　　　S
+
+植物D　 HP
+        MP
+　　　　ATK
+　　　　DF
+　　　　S
+
+植物F　 HP
+        MP
+　　　　ATK
+　　　　DF
+　　　　S
+
+１面のボス　HP
+        　　MP
+　　　　　　ATK
+　　　　　　DF
+　　　　　　S
+
