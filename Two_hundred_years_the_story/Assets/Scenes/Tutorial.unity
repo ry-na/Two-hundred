@@ -247,8 +247,8 @@ MonoBehaviour:
   plateausIcon: {fileID: 2800000, guid: d56a2918dbaab45ae899828d981d8dff, type: 3}
   defaultTexture: {fileID: 2800000, guid: 07ec441dca83743ee8e1b259837acbd2, type: 3}
   toolModeInt: 0
-  erosionTypeInt: 0
-  generatorTypeInt: 1
+  erosionTypeInt: 1
+  generatorTypeInt: 0
   isBrushOn: 0
   isBrushHidden: 0
   isBrushPainting: 0
@@ -295,7 +295,7 @@ MonoBehaviour:
   slopeBlendMaxAngle: 75
   heightBlendPoints: []
   gradientStyles: []
-  voronoiTypeInt: 0
+  voronoiTypeInt: 2
   voronoiType: 0
   voronoiCells: 16
   voronoiFeatures: 0.1
@@ -308,7 +308,7 @@ MonoBehaviour:
   perlinOctaves: 8
   perlinBlend: 1
   smoothBlend: 1
-  smoothIterations: 0
+  smoothIterations: 1
   normaliseMin: 0
   normaliseMax: 1
   normaliseBlend: 1
@@ -325,7 +325,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 55935c2e8b555c64f998fe8e862162e3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 35
+      value: 6.8
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 55935c2e8b555c64f998fe8e862162e3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -358,6 +358,37 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55935c2e8b555c64f998fe8e862162e3, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &1073007476 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100002, guid: adad8ebc42effef40a93ec0e335644f0, type: 3}
+  m_PrefabInternal: {fileID: 1678670579}
+--- !u!54 &1073007478
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1073007476}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1073007479
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1073007476}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 9, z: 2}
+  m_Center: {x: 0, y: -2, z: 0}
 --- !u!1 &1205093865
 GameObject:
   m_ObjectHideFlags: 0
@@ -412,7 +443,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: adad8ebc42effef40a93ec0e335644f0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 35.5
+      value: 6.8
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: adad8ebc42effef40a93ec0e335644f0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -543,7 +574,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1816377463}
   m_LocalRotation: {x: 0.17101006, y: 0.17101006, z: -0.030153684, w: 0.96984637}
-  m_LocalPosition: {x: 7.85, y: 37.59, z: 0.04}
+  m_LocalPosition: {x: 5.9, y: 6.1, z: 2.08}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 20, y: 20, z: 0}
   m_Children: []
@@ -557,3 +588,34 @@ Skybox:
   m_GameObject: {fileID: 1816377463}
   m_Enabled: 1
   m_CustomSkybox: {fileID: 2100000, guid: 794eb5f8516828240b12c676f5aac8c3, type: 2}
+--- !u!1 &1906174302 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100006, guid: 55935c2e8b555c64f998fe8e862162e3, type: 3}
+  m_PrefabInternal: {fileID: 425520001}
+--- !u!65 &1906174304
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1906174302}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4, y: 7, z: 4}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1906174305
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1906174302}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

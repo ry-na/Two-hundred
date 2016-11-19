@@ -64,7 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\DataTable.cs" />
-    <Compile Include="Assets\Script\Public\CameraController.cs" />
+    <Compile Include="Assets\Script\Public\TestCameraController.cs" />
     <Compile Include="Assets\Script\SqliteDatabase.cs" />
     <Compile Include="Assets\TerrainToolkit\TerrainToolkit.cs" />
     <Compile Include="Assets\sample.cs" />
