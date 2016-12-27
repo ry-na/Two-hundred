@@ -73,9 +73,10 @@
     <Compile Include="Assets\Plugin\UnityChan\Scripts\ThirdPersonCamera.cs" />
     <Compile Include="Assets\Plugin\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
     <Compile Include="Assets\Script\DataTable.cs" />
-    <Compile Include="Assets\Script\Public\EncountController.cs" />
-    <Compile Include="Assets\Script\Public\FollowPlayer.cs" />
-    <Compile Include="Assets\Script\Public\TestCameraController.cs" />
+    <Compile Include="Assets\Script\Public\battle\BattleController.cs" />
+    <Compile Include="Assets\Script\Public\map\EncountController.cs" />
+    <Compile Include="Assets\Script\Public\map\FollowPlayer.cs" />
+    <Compile Include="Assets\Script\Public\map\TestCameraController.cs" />
     <Compile Include="Assets\Script\SqliteDatabase.cs" />
     <Compile Include="Assets\TerrainToolkit\TerrainToolkit.cs" />
     <Compile Include="Assets\sample.cs" />
