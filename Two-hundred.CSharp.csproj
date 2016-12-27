@@ -73,6 +73,7 @@
     <Compile Include="Assets\Plugin\UnityChan\Scripts\ThirdPersonCamera.cs" />
     <Compile Include="Assets\Plugin\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
     <Compile Include="Assets\Script\DataTable.cs" />
+    <Compile Include="Assets\Script\Public\EncountController.cs" />
     <Compile Include="Assets\Script\Public\FollowPlayer.cs" />
     <Compile Include="Assets\Script\Public\TestCameraController.cs" />
     <Compile Include="Assets\Script\SqliteDatabase.cs" />
