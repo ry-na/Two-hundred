@@ -73,6 +73,7 @@
     <Compile Include="Assets\Plugin\UnityChan\Scripts\ThirdPersonCamera.cs" />
     <Compile Include="Assets\Plugin\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
     <Compile Include="Assets\Script\DataTable.cs" />
+    <Compile Include="Assets\Script\Model\battle\CharacterModel.cs" />
     <Compile Include="Assets\Script\Public\battle\BattleController.cs" />
     <Compile Include="Assets\Script\Public\map\EncountController.cs" />
     <Compile Include="Assets\Script\Public\map\FollowPlayer.cs" />
@@ -98,6 +99,7 @@
     <None Include="Assets\Plugin\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
     <None Include="Assets\Plugin\UnityChan\Stage\Shader\AlphaMask.shader" />
     <None Include="Assets\Plugin\UnityChan\license.txt" />
+    <None Include="Assets\Script\Model\map\新しいテキスト ドキュメント.txt" />
     <None Include="Assets\Script\View\kari.txt" />
     <None Include="Assets\TerrainToolkit\Read me.txt" />
   </ItemGroup>
