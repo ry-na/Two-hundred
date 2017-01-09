@@ -55,9 +55,11 @@
      <Compile Include="Assets\Plugin\UnityChan\Scripts\ThirdPersonCamera.cs" />
      <Compile Include="Assets\Plugin\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
      <Compile Include="Assets\Script\DataTable.cs" />
-     <Compile Include="Assets\Script\Public\EncountController.cs" />
-     <Compile Include="Assets\Script\Public\FollowPlayer.cs" />
-     <Compile Include="Assets\Script\Public\TestCameraController.cs" />
+     <Compile Include="Assets\Script\Model\battle\CharacterModel.cs" />
+     <Compile Include="Assets\Script\Public\battle\BattleController.cs" />
+     <Compile Include="Assets\Script\Public\map\EncountController.cs" />
+     <Compile Include="Assets\Script\Public\map\FollowPlayer.cs" />
+     <Compile Include="Assets\Script\Public\map\TestCameraController.cs" />
      <Compile Include="Assets\Script\SqliteDatabase.cs" />
      <Compile Include="Assets\TerrainToolkit\TerrainToolkit.cs" />
      <Compile Include="Assets\sample.cs" />
@@ -76,6 +78,7 @@
      <None Include="Assets\Plugin\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
      <None Include="Assets\Models\Audio\kari.txt" />
      <None Include="Assets\Plugin\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
+     <None Include="Assets\Script\Model\map\新しいテキスト ドキュメント.txt" />
      <None Include="Assets\Script\View\kari.txt" />
      <None Include="Assets\Models\Map\Wispy Sky\ReadMe.txt" />
      <None Include="Assets\TerrainToolkit\Read me.txt" />

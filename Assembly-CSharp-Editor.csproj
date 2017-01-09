@@ -61,6 +61,7 @@
      <None Include="Assets\Plugin\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
      <None Include="Assets\Models\Audio\kari.txt" />
      <None Include="Assets\Plugin\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
+     <None Include="Assets\Script\Model\map\新しいテキスト ドキュメント.txt" />
      <None Include="Assets\Script\View\kari.txt" />
      <None Include="Assets\Models\Map\Wispy Sky\ReadMe.txt" />
      <None Include="Assets\TerrainToolkit\Read me.txt" />
