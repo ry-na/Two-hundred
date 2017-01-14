@@ -79,6 +79,7 @@
     <Compile Include="Assets\Script\Public\map\FollowPlayer.cs" />
     <Compile Include="Assets\Script\Public\map\TestCameraController.cs" />
     <Compile Include="Assets\Script\SqliteDatabase.cs" />
+    <Compile Include="Assets\Script\View\BattleButton.cs" />
     <Compile Include="Assets\TerrainToolkit\TerrainToolkit.cs" />
     <Compile Include="Assets\sample.cs" />
   </ItemGroup>
