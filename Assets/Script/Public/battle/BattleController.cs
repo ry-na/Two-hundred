@@ -150,7 +150,8 @@ public class BattleController : MonoBehaviour
 
     public void Attack()
     {
-        enemy1["hp"] -= player1["attack"];
-        enemyHPText1.text = enemy1["hp"].ToString();
+        Debug.Log(new TextController().GetText());
+        //enemy1["hp"] -= player1["attack"];
+        //enemyHPText1.text = enemy1["hp"].ToString();
     }
 }
